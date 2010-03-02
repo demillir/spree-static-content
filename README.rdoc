@@ -41,3 +41,8 @@ Add this to your environment.rb inside the
 
 ===
   config.extensions = [:localization, :static_content, :all]
+
+
+&copy; 2010 [Spinlock Solutions][1]
+
+[1]: http://www.spinlocksolutions.com/
