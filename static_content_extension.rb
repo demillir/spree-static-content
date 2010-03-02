@@ -58,5 +58,9 @@ class StaticContentExtension < Spree::Extension
         end
       end
     end
+
+    ContentController.class_eval do
+      include StaticContentExtension::ContentControllerOverride
+    end
   end
 end
