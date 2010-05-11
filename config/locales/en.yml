@@ -19,4 +19,5 @@ en:
     ext_static_content_meta_keywords: Meta Keywords
     ext_static_content_meta_description: Meta Description
     ext_static_content_layout: Layout
+    legacy_uri_suffix_for_rewriting: Legacy URI Suffix for Rewriting
 

@@ -50,6 +50,10 @@
     <td><%= f.text_field :layout %></td>
   </tr>
   <tr>
+    <td valign="top"><%=t("legacy_uri_suffix_for_rewriting")%>:</td>
+    <td><%= f.text_field :rewrite_suffix %></td>
+  </tr>
+  <tr>
     <td valign="top"><%=t("ext_static_content_visible")%>:</td>
     <td><%= f.check_box :visible %></td>
   </tr>
