@@ -24,7 +24,7 @@ class ShowContent
   private
   
   def self.load_slugs
-    Page.all.map(&:slug)
+    Page.table_exists? ? Page.all.map(&:slug) : []
   end
 
   # Cache the slugs of interest so we don't hit the database with every request.
