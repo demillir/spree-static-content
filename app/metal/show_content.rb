@@ -12,7 +12,7 @@ class ShowContent
       # The new path simply has a '/pages' prefix.
       newPath = "/pages" + path
       
-      # Perform the re-route by modified the given "env" hash.
+      # Perform the re-route by modifying the given "env" hash.
       env["PATH_INFO"] = env["REQUEST_URI"] = newPath
     end
     
